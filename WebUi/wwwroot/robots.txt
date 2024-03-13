@@ -1,0 +1,23 @@
+User-agent: *
+
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.png
+Disallow: /admin
+Disallow: /Connections
+Allow: /fancybox
+Allow: /fonts
+Disallow: /include
+Disallow: /404.php
+Disallow: /captcha.php
+Disallow: /random.php
+Disallow: /scroll-picture.php
+Disallow: /send_booking.php
+Disallow: /send_contact.php
+Disallow: /send_join.php
+Disallow: /show-captcha.php
+Disallow: /thankyou.php
+
+Sitemap: https://www.dreamgirlslasvegas.com/sitemap.xml

@@ -1,0 +1,20 @@
+﻿@model WebUi.Controllers.AboutUsViewModel
+
+@{
+    ViewData["Title"] = "About Us Page";
+}
+
+<div class="main_container_block escorts_display_page">
+    <div class="breadcums_block" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <ol class="breadcrumb">
+            <li><a itemprop="url" href="/"><span itemprop="title">Home</span></a></li>
+            <li class="active"><span itemprop="title">About Us</span></li>
+        </ol>
+    </div>
+    <div class="main_container_block escorts_profile_container">
+        <h1 class="heading">@Model.PositionAbout</h1>
+        <div class="container_area border_radius bg_new_york" style="padding: 20px 20px 30px;">
+            @Html.Raw(Model.SiteDescriptionAbout)
+        </div>
+    </div>
+</div>
