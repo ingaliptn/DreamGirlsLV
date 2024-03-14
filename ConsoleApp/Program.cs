@@ -27,7 +27,7 @@ namespace ConsoleApp
                 .BuildServiceProvider();
 
             var l = new TextChange(serviceProvider);
-            await l.TextChangeDescription(Constants.SiteName, "702-852-3020", "702-789-6405");
+            await l.TextChangeDescription(Constants.SiteName, "702-852-3020", "702-718-2634");
             //var l = new CsvToBd(serviceProvider);
             //await l.RemoveBad(Constants.SiteName);
             //await l.AddEscort1(Constants.SiteName, "dreamgirl1.csv");
